@@ -76,7 +76,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="c6224953-5e72-41ff-8737-9e47f3d85d28" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="d48a8728-d67b-4b66-aef1-dd3aec914823" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -165,7 +165,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="20bfe4cb-5e0f-4094-9e40-c241997f3160" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="599c239d-7ca8-468e-a44b-60620448a104" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -254,7 +254,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="1df98dec-f060-40fa-9d19-3e3ccb24d4eb" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="e51e5935-1894-4530-8857-dd5f2e18a4ef" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -343,7 +343,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="b1986b08-305b-4152-9b1f-02c8844869d8" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="0e9a0cba-2a6e-4b54-91d2-2c04e26ba07a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -427,18 +427,22 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="16706217" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="КЖД (Drums) 48000 1 (640Hz - 5120Hz)" offline="false" select="true" sourceInPoint="32700" sourceOutPoint="16738917" startPoint="0" zOrder="6">
-          <component componentGuid="1ab1f7c4-47e0-4260-aa1c-2bdd2c898c8a" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="16705656" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="КЖД (Drums) 48000 1 (640Hz - 5120Hz)" offline="false" select="true" sourceInPoint="33261" sourceOutPoint="16738917" startPoint="0" zOrder="9">
+          <component componentGuid="de757b16-fa51-4d2e-b793-6888094aba6f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1">
+              <parameterKeyframes enableSplines="false" readOnly="false">
+                <parameterKeyframe sampleOffset="1141033" select="false" type="linear" value="0.64999997615814208984375"/>
+              </parameterKeyframes>
+            </parameter>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="1969b957-ee65-4c5b-a99c-88213e045b16" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="99a40dd0-2615-47b3-8881-a670b604831d" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component id="clipPan" powered="true"/>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="16706217" shape="19" startPoint="16706217" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="16705656" shape="19" startPoint="16705656" type="log"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <channelMap>
             <channel index="0" sourceIndex="0"/>
@@ -515,10 +519,10 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="0" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="0"/>
-      <viewState horizontalViewDuration="0" horizontalViewStart="0" trackControlsWidth="0" verticalScrollOffset="0"/>
-      <timeFormatState beatsPerBar="0" beatsPerMinute="0" customFrameRate="0" linkToDefaultTimeSettings="false" noteLength="0" subdivisions="0" timeCodeDropFrame="false" timeCodeFrameRate="0" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+    <sessionState ctiPosition="7384599" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="7384599"/>
+      <viewState horizontalViewDuration="3825755" horizontalViewStart="5982137" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120.1749999999999971578290569595992565155029296875" customFrameRate="12" linkToDefaultTimeSettings="false" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatBarsAndBeats"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
     </sessionState>
     <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
@@ -533,10 +537,10 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 23.1 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2023-11-17T20:31:01+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2023-11-25T18:59:21+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2023-11-25T18:59:21+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:5e034ad2-6825-3643-a410-e165fbbefb76</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:5e034ad2-6825-3643-a410-e165fbbefb76</xmpMM:DocumentID>
+         <xmp:MetadataDate>2023-12-02T12:15:26+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2023-12-02T12:15:26+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:be8c706c-aa5e-e248-9fc0-80a72e7ad5b4</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:be8c706c-aa5e-e248-9fc0-80a72e7ad5b4</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:a7aff4c8-6321-f947-8fab-f4e97c539c90</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -1095,22 +1099,64 @@
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:3d088a48-acca-6845-a358-8491ee66c654</stEvt:instanceID>
-                  <stEvt:when>2023-11-25T18:59:21+08:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:b246edb3-101e-f541-ad0e-506abbbd044e</stEvt:instanceID>
+                  <stEvt:when>2023-11-25T19:03:04+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/metadata</stEvt:changed>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <stEvt:action>saved</stEvt:action>
-                  <stEvt:instanceID>xmp.iid:5e034ad2-6825-3643-a410-e165fbbefb76</stEvt:instanceID>
-                  <stEvt:when>2023-11-25T18:59:21+08:00</stEvt:when>
+                  <stEvt:instanceID>xmp.iid:243d7d0b-33de-ac47-a8bf-bdd4f5f6f986</stEvt:instanceID>
+                  <stEvt:when>2023-11-25T19:03:04+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1dba5c63-2682-dc44-b80b-b13ab29d66d1</stEvt:instanceID>
+                  <stEvt:when>2023-11-25T19:47:07+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2dfee873-c4aa-434a-983b-53b8fe7d7b1c</stEvt:instanceID>
+                  <stEvt:when>2023-11-25T19:47:07+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c0dab204-0f52-3046-8806-886ec9289ea7</stEvt:instanceID>
+                  <stEvt:when>2023-11-27T00:05:13+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:694a5c54-4ec0-5246-b335-6e8095910ecd</stEvt:instanceID>
+                  <stEvt:when>2023-11-27T00:05:13+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:41a4a843-4906-aa40-a210-85a72ca01ec0</stEvt:instanceID>
+                  <stEvt:when>2023-12-02T12:15:26+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:be8c706c-aa5e-e248-9fc0-80a72e7ad5b4</stEvt:instanceID>
+                  <stEvt:when>2023-12-02T12:15:26+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:3d088a48-acca-6845-a358-8491ee66c654</stRef:instanceID>
+            <stRef:instanceID>xmp.iid:41a4a843-4906-aa40-a210-85a72ca01ec0</stRef:instanceID>
             <stRef:documentID>xmp.did:a7aff4c8-6321-f947-8fab-f4e97c539c90</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:a7aff4c8-6321-f947-8fab-f4e97c539c90</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
@@ -1236,11 +1282,11 @@
   </session>
 
   <files>
-    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Other) 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="ee5edd8f-b72b-462e-a436-e815a8fb75de" relativePath="../Conformed Files/КЖД (Other) 48000 1.wav"/>
-    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Drums) 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="e8b174db-d888-4f5a-9dab-128b6849c48d" relativePath="../Conformed Files/КЖД (Drums) 48000 1.wav"/>
-    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Vocals) 48000 1.wav" id="2" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="7ab36496-4c8a-41b4-92d3-377c669b939a" relativePath="../Conformed Files/КЖД (Vocals) 48000 1.wav"/>
-    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Bass) 48000 1.wav" id="3" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="9fbd0e4a-7061-47e1-83c6-e2700c86045c" relativePath="../Conformed Files/КЖД (Bass) 48000 1.wav"/>
-    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\已导入文件\КЖД (Drums) 48000 1 (640Hz - 5120Hz).wav" id="4" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="b2833220-18d9-4504-80c7-a3de1e0f6fd0" relativePath="../已导入文件/КЖД (Drums) 48000 1 (640Hz - 5120Hz).wav"/>
+    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Other) 48000 1.wav" id="0" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="052317fa-1043-44fc-bd69-5e55fdb74ca5" relativePath="../Conformed Files/КЖД (Other) 48000 1.wav"/>
+    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Drums) 48000 1.wav" id="1" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="d0f0c7e3-81a6-4e0b-8d1c-b3fe58d3d81a" relativePath="../Conformed Files/КЖД (Drums) 48000 1.wav"/>
+    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Vocals) 48000 1.wav" id="2" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="37f9b51e-4778-44f5-b003-98bc572df61a" relativePath="../Conformed Files/КЖД (Vocals) 48000 1.wav"/>
+    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\Conformed Files\КЖД (Bass) 48000 1.wav" id="3" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="a774d4ea-e4e9-478c-b399-1aaa3d6e55ff" relativePath="../Conformed Files/КЖД (Bass) 48000 1.wav"/>
+    <file absolutePath="D:\Media\GitHub\KrasnoZholtyjeDni-Scores\Audition-КЖД\已导入文件\КЖД (Drums) 48000 1 (640Hz - 5120Hz).wav" id="4" importerPrivateSettings="Compression:0:0;LargeFileSupport:0:0;SampleType:0:40;" mediaHandler="AmioWav" recoveryID="6c5c6dc5-7396-40f5-b136-04baffe4339b" relativePath="../已导入文件/КЖД (Drums) 48000 1 (640Hz - 5120Hz).wav"/>
   </files>
 
   <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
