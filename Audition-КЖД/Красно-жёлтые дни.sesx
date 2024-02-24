@@ -5,7 +5,7 @@
   <session appBuild="23.1.0.75" appVersion="23.1" audioChannelType="stereo" bitDepth="32" duration="17993421" sampleRate="48000">
     <tracks>
       <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
-        <trackParameters trackHeight="123" trackHue="14.4000000000000003552713678800500929355621337890625" trackMinimized="false">
+        <trackParameters trackHeight="92" trackHue="14.4000000000000003552713678800500929355621337890625" trackMinimized="false">
           <name>Others</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -76,7 +76,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="11a09821-1b02-43df-a667-3f0800c7c31a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="1e89a5a5-680f-42cc-8cc8-7479b72f85f1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -94,7 +94,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
-        <trackParameters trackHeight="123" trackHue="211" trackMinimized="false">
+        <trackParameters trackHeight="92" trackHue="211" trackMinimized="false">
           <name>Drums</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -165,7 +165,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="4a4c9c74-542c-4f0c-83dd-359cfe30c399" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="71872742-e259-4c77-8c88-6f63d8d19e16" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -183,7 +183,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
-        <trackParameters trackHeight="123" trackHue="51" trackMinimized="false">
+        <trackParameters trackHeight="92" trackHue="51" trackMinimized="false">
           <name>Vocal</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -254,7 +254,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="f0c755fc-8730-4b20-be61-e4c74ff4a9de" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="419c225e-0497-47f1-82d6-207ec51a8315" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -271,8 +271,8 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
-        <trackParameters trackHeight="123" trackHue="160" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="true" visible="true">
+        <trackParameters trackHeight="92" trackHue="160" trackMinimized="false">
           <name>Bass</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -343,7 +343,7 @@
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="6b925d48-122c-4fbc-a2e6-23ee5391f4da" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="af2a8944-4bc5-4234-a642-716def83f868" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -360,8 +360,8 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="true" visible="true">
-        <trackParameters trackHeight="123" trackHue="294" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="92" trackHue="294" trackMinimized="false">
           <name>Claps</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -373,7 +373,7 @@
           </component>
           <component componentGuid="dd7197f8-fb7d-4af6-8729-149c16c797b6" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="1"/>
           </component>
           <component componentGuid="85377c61-ee0e-4cdf-8c2f-0e0cb22c8491" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="声像" parameterValue="0"/>
@@ -427,7 +427,7 @@
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="16705656" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="КЖД (Drums) 48000 1 (640Hz - 5120Hz)" offline="false" select="true" sourceInPoint="33261" sourceOutPoint="16738917" startPoint="0" zOrder="9">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="16705656" fileID="4" hue="-1" id="0" lockedInTime="false" looped="false" name="КЖД (Drums) 48000 1 (640Hz - 5120Hz)" offline="false" select="false" sourceInPoint="33261" sourceOutPoint="16738917" startPoint="0" zOrder="9">
           <component componentGuid="de757b16-fa51-4d2e-b793-6888094aba6f" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1">
               <parameterKeyframes enableSplines="false" readOnly="false">
@@ -436,7 +436,7 @@
             </parameter>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
-          <component componentGuid="0188d9f8-91ce-4fab-ada2-846e61f0620a" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+          <component componentGuid="9a58e88d-0ebb-4299-a7c0-fa719c9e3436" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
             <parameter index="1" name="mute" parameterValue="0"/>
           </component>
@@ -451,7 +451,7 @@
         </audioClip>
       </audioTrack>
       <masterTrack automationLaneOpenState="false" id="10000" index="6" select="false" visible="true">
-        <trackParameters trackHeight="123" trackHue="-1" trackMinimized="false">
+        <trackParameters trackHeight="92" trackHue="-1" trackMinimized="false">
           <name>混合</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
@@ -519,10 +519,10 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="7384599" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="7384599"/>
-      <viewState horizontalViewDuration="3825755" horizontalViewStart="5982137" trackControlsWidth="224" verticalScrollOffset="0"/>
-      <timeFormatState beatsPerBar="4" beatsPerMinute="120.1749999999999971578290569595992565155029296875" customFrameRate="12" linkToDefaultTimeSettings="false" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatBarsAndBeats"/>
+    <sessionState ctiPosition="17993421" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="17993421"/>
+      <viewState horizontalViewDuration="17993421" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120.1200000000000045474735088646411895751953125" customFrameRate="12" linkToDefaultTimeSettings="false" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatBarsAndBeats"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3" playOverlappingClips="false"/>
     </sessionState>
     <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
@@ -536,9 +536,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition 23.1 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2023-11-17T20:31:01+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2023-11-27T00:05:13+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2023-11-27T00:05:13+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:694a5c54-4ec0-5246-b335-6e8095910ecd</xmpMM:InstanceID>
+         <xmp:MetadataDate>2024-02-24T15:50:39+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2024-02-24T15:50:39+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:d843fc77-dba6-974b-a603-e441f4f62685</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:a7aff4c8-6321-f947-8fab-f4e97c539c90</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:a7aff4c8-6321-f947-8fab-f4e97c539c90</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -1138,6 +1138,20 @@
                   <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:92dff8de-fd82-e147-b84e-f17721545818</stEvt:instanceID>
+                  <stEvt:when>2024-02-24T15:50:39+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d843fc77-dba6-974b-a603-e441f4f62685</stEvt:instanceID>
+                  <stEvt:when>2024-02-24T15:50:39+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition 23.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <dc:format>application/xml</dc:format>
@@ -1271,14 +1285,14 @@
 
   <audioDevice inputID="22222222-2222-2222-2222-22222222" outputID="11111111-1111-1111-1111-11111111">
     <inputPort id="1" name="默认立体声输入"/>
-    <inputPort id="2" name="[01M] 系统默认 - 麦克风 (Realtek(R) Audio) 1"/>
-    <inputPort id="3" name="[02M] 系统默认 - 麦克风 (Realtek(R) Audio) 2"/>
-    <inputPort id="4" name="[01S] 系统默认 - 麦克风 (Realtek(R) Audio) 1"/>
+    <inputPort id="2" name="[01M] 系统默认 - 麦克风阵列 (适用于数字麦克风的英特尔® 智音技术) 1"/>
+    <inputPort id="3" name="[02M] 系统默认 - 麦克风阵列 (适用于数字麦克风的英特尔® 智音技术) 2"/>
+    <inputPort id="4" name="[01S] 系统默认 - 麦克风阵列 (适用于数字麦克风的英特尔® 智音技术) 1"/>
     <outputPort id="1" name="默认输出"/>
-    <outputPort id="2" name="[01M] 系统默认 - Realtek HD Audio 2nd output (Realtek(R) Audio) 1"/>
-    <outputPort id="3" name="[02M] 系统默认 - Realtek HD Audio 2nd output (Realtek(R) Audio) 2"/>
+    <outputPort id="2" name="[01M] 系统默认 - 耳机 (AirPods Pro Stereo) 1"/>
+    <outputPort id="3" name="[02M] 系统默认 - 耳机 (AirPods Pro Stereo) 2"/>
     <outputPort id="4" name="默认立体声输出"/>
-    <outputPort id="5" name="[01S] 系统默认 - Realtek HD Audio 2nd output (Realtek(R) Audio) 1"/>
+    <outputPort id="5" name="[01S] 系统默认 - 耳机 (AirPods Pro Stereo) 1"/>
     <outputPort id="6" name="默认环绕声输出"/>
   </audioDevice>
 
